@@ -1,0 +1,9 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+      dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+    datasource:
+      url: "jdbc:mysql://eu-cdbr-west-03.cleardb.net:3306/heroku_726a5828a531fde"
+      username: b6212127c603cb
+      password: 94ad4c3d
